@@ -121,7 +121,9 @@
                 android:onClick="buttonClicked"
                 android:stateListAnimator="@null"
                 android:text="7"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:id="@+id/button7"
+                />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="wrap_content"
@@ -131,7 +133,9 @@
                 android:stateListAnimator="@null"
                 android:text="8"
                 android:textColor="@color/textColor"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:id="@+id/button8"
+                />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="wrap_content"
@@ -142,7 +146,9 @@
                 android:stateListAnimator="@null"
                 android:text="9"
                 android:textColor="@color/textColor"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:id="@+id/button9"
+                />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="wrap_content"
@@ -153,7 +159,9 @@
                 android:stateListAnimator="@null"
                 android:text="X"
                 android:textColor="@color/green"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:id="@+id/buttonxX"
+                />
 
 
         </TableRow>
@@ -168,7 +176,9 @@
                 android:onClick="buttonClicked"
                 android:stateListAnimator="@null"
                 android:text="4"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:id="@+id/button4"
+                />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="wrap_content"
@@ -178,7 +188,9 @@
                 android:stateListAnimator="@null"
                 android:text="5"
                 android:textColor="@color/textColor"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:id="@+id/button5"
+                />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="wrap_content"
@@ -189,7 +201,9 @@
                 android:stateListAnimator="@null"
                 android:text="6"
                 android:textColor="@color/textColor"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:id="@+id/button6"
+                />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="wrap_content"
@@ -200,7 +214,9 @@
                 android:stateListAnimator="@null"
                 android:text="-"
                 android:textColor="@color/green"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:id="@+id/buttonMinus"
+                />
 
 
         </TableRow>
@@ -215,7 +231,9 @@
                 android:onClick="buttonClicked"
                 android:stateListAnimator="@null"
                 android:text="1"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:id="@+id/button1"
+                />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="wrap_content"
@@ -225,7 +243,9 @@
                 android:stateListAnimator="@null"
                 android:text="2"
                 android:textColor="@color/textColor"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:id="@+id/button2"
+                />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="wrap_content"
@@ -236,7 +256,9 @@
                 android:stateListAnimator="@null"
                 android:text="3"
                 android:textColor="@color/textColor"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:id="@+id/button3"
+                />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="wrap_content"
@@ -247,7 +269,9 @@
                 android:stateListAnimator="@null"
                 android:text="+"
                 android:textColor="@color/green"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:id="@+id/buttonPlus"
+                />
 
 
         </TableRow>
@@ -273,7 +297,9 @@
                 android:stateListAnimator="@null"
                 android:text="0"
                 android:textColor="@color/textColor"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:id="@+id/button0"
+                />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="wrap_content"
