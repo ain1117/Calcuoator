@@ -227,7 +227,7 @@ class MainActivity : AppCompatActivity() {
         Thread(Runnable {
 
             db.HistoryDao().getAll().reversed().forEach { //먼저 넣은 것을 위에 표시하기 위해 리스트를 뒤집는다.
-                runOnUiThread { //ui스레드를 실행시킨다.
+                runOnUiThread { //ui 스레드를 호출하여 실행시킨다.
                     val historyView = LayoutInflater.from(this).inflate(R.layout.history_row, null, false) //inflater를 만들어 할당한다. 이때 연결 화면은 hitroy_row 이다.
                     historyView.findViewById<TextView>(R.id.expressionTextView).text = it.expression //
                     historyView.findViewById<TextView>(R.id.resultTextView).text = "= ${it.result}"
